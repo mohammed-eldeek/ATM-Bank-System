@@ -41,7 +41,6 @@ def create_connection():
    source venv/bin/activate
    python main.py
    ```
-- Save the changes.
 ## Contributions
 
 Contributions to this project are welcome! If you'd like to contribute, follow these steps:
@@ -54,5 +53,4 @@ Contributions to this project are welcome! If you'd like to contribute, follow t
 
 ## License
 
-This project is licensed under the [MIT] License - see the [MIT](MIT) file for details.
-
+This project is licensed under the [MIT] License - see the [MIT](LICENSE) file for details.
