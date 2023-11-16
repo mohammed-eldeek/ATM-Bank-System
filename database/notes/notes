@@ -1,0 +1,29 @@
+add data mysql
+
+-- Create a database (if not already created)
+CREATE DATABASE IF NOT EXISTS banking_system;
+
+-- Switch to the created database
+USE banking_system;
+
+-- Create a table to store cardholder information
+CREATE TABLE IF NOT EXISTS cardholders (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    card_num VARCHAR(16) NOT NULL,
+    pin INT NOT NULL,
+    f_name VARCHAR(255) NOT NULL,
+    l_name VARCHAR(255) NOT NULL,
+    balance DECIMAL(10, 2) NOT NULL
+);
+
+-- Insert some sample data (optional)
+ INSERT INTO cardholders (card_num, pin, f_name, l_name, balance) VALUES
+('391287391273901', 1234, 'Mohammed', 'Osama', 100.31),
+('312312412412412', 4123, 'Khaled', 'Mohammed', 200);
+
+
+
+INSERT INTO cardholders (card_num, pin, f_name, l_name, balance) VALUES
+('111111111111111', 1234, 'Dr.Gamal', 'Behery', 20),
+
+
